@@ -1,0 +1,5 @@
+#Ignoring because it's completely different
+src/
+#Ignoring compiles
+*.zip
+*.exe
