@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="snesgss.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="28" Y="14"/>
+        <UsageCount Value="233"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="181" Y="174"/>
+        <UsageCount Value="232"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitOutputMonitor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormOutputMonitor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitOutputMonitor"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="22"/>
+        <UsageCount Value="233"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitTranspose.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormTranspose"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitTranspose"/>
+        <CursorPos X="64" Y="19"/>
+        <UsageCount Value="226"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitReplace.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormReplace"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitReplace"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="23" Y="27"/>
+        <UsageCount Value="226"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitSectionName.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SectionName"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitSectionName"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="10"/>
+        <UsageCount Value="225"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitLectionList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSectionList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitSectionList"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="3" Y="36"/>
+        <UsageCount Value="225"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitSubSong.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSubSong"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitSubSong"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="7" Y="8"/>
+        <UsageCount Value="225"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PaintboxSongRender.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PaintboxSongRender"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="11"/>
+        <UsageCount Value="162"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode="default"/>
+    </RunParams>
+    <HistoryLists>
+      <List Name="LaunchingApplication" Type="File" Count="2">
+        <Item1 Value="/usr/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <Item2 Value="/usr/bin/gnome-terminal -t &apos;Lazarus Run Output&apos; -e &apos;$(LazarusDir)/tools/runwait.sh $(TargetCmdLine)&apos;"/>
+      </List>
+    </HistoryLists>
+  </ProjectSession>
+</CONFIG>

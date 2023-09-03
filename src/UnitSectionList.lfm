@@ -1,0 +1,31 @@
+object FormSectionList: TFormSectionList
+  Left = 1198
+  Height = 301
+  Top = 251
+  Width = 284
+  BorderStyle = bsSizeToolWin
+  Caption = 'Song sections list'
+  ClientHeight = 301
+  ClientWidth = 284
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '2.2.0.4'
+  Scaled = False
+  object ListBoxSections: TListBox
+    Left = 0
+    Height = 301
+    Top = 0
+    Width = 284
+    Align = alClient
+    ItemHeight = 0
+    OnClick = ListBoxSectionsClick
+    OnDblClick = ListBoxSectionsDblClick
+    OnKeyPress = ListBoxSectionsKeyPress
+    TabOrder = 0
+    TopIndex = -1
+  end
+end

@@ -1,0 +1,55 @@
+object FormOutputMonitor: TFormOutputMonitor
+  Left = 1556
+  Height = 73
+  Top = 647
+  Width = 274
+  AlphaBlend = True
+  AlphaBlendValue = 224
+  BorderStyle = bsToolWindow
+  Caption = 'Output monitor'
+  ClientHeight = 73
+  ClientWidth = 274
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  Position = poMainFormCenter
+  LCLVersion = '2.2.0.4'
+  Scaled = False
+  object LabelInfo: TLabel
+    Left = 8
+    Height = 17
+    Top = 48
+    Width = 96
+    Caption = 'Detected note:'
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    ParentFont = False
+    OnClick = LabelInfoClick
+  end
+  object LabelNote: TLabel
+    Left = 98
+    Height = 17
+    Top = 49
+    Width = 15
+    Caption = '---'
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    ParentFont = False
+  end
+  object LabelCents: TLabel
+    Left = 119
+    Height = 1
+    Top = 49
+    Width = 1
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    ParentFont = False
+  end
+end

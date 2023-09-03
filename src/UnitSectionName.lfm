@@ -1,0 +1,25 @@
+object SectionName: TSectionName
+  Left = 1010
+  Height = 25
+  Top = 850
+  Width = 294
+  BorderStyle = bsToolWindow
+  Caption = 'Change song section name'
+  ClientHeight = 25
+  ClientWidth = 294
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Position = poMainFormCenter
+  LCLVersion = '2.2.0.4'
+  Scaled = False
+  object EditName: TEdit
+    Left = 0
+    Height = 34
+    Top = 0
+    Width = 297
+    OnKeyPress = EditNameKeyPress
+    TabOrder = 0
+  end
+end

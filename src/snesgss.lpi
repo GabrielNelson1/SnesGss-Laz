@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <Title Value="snes gss laz"/>
+      <Scaled Value="True"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <BuildNr Value="1"/>
+      <Attributes pvaDebug="True"/>
+    </VersionInfo>
+    <BuildModes>
+      <Item Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes>
+        <Mode Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages>
+      <Item>
+        <PackageName Value="pascalscript"/>
+      </Item>
+      <Item>
+        <PackageName Value="lclextensions_package"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCLBase"/>
+      </Item>
+      <Item>
+        <PackageName Value="LCL"/>
+      </Item>
+    </RequiredPackages>
+    <Units>
+      <Unit>
+        <Filename Value="snesgss.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitMain"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitOutputMonitor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormOutputMonitor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitOutputMonitor"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitTranspose.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormTranspose"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitTranspose"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitReplace.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormReplace"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitReplace"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitSectionName.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SectionName"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitSectionName"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitSectionList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSectionList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitSectionList"/>
+      </Unit>
+      <Unit>
+        <Filename Value="UnitSubSong.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormSubSong"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UnitSubSong"/>
+      </Unit>
+      <Unit>
+        <Filename Value="PaintboxSongRender.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="PaintboxSongRender"/>
+      </Unit>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="snesgss"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions>
+      <Item>
+        <Name Value="EAbort"/>
+      </Item>
+      <Item>
+        <Name Value="ECodetoolError"/>
+      </Item>
+      <Item>
+        <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EClassNotFound"/>
+      </Item>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
